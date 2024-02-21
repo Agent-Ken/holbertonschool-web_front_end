@@ -1,6 +1,6 @@
 /* Using @for to create .col-* (1-4) */
 @for $i from 1 through 4 {
     .col-#{$i} {
-        width: calc((100%) / #{$i});
+        width: calc(100% / $i);
     }
 }
