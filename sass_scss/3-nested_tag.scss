@@ -1,0 +1,8 @@
+/* No margin or padding in body tags and adding margin to p tags in body */
+body {
+    margin: 0px;
+    padding: 0px;
+    p {
+        margin: 10px; 
+    }
+}

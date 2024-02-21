@@ -1,0 +1,15 @@
+/* text color #3D3D3D to the HTML tags body and p | background color #6D6D6D to the HTML tags body and h2 */
+$mycolor: #3D3D3D;
+$mycolor2:#6D6D6D;
+body {
+    color: $mycolor;
+    background-color: $mycolor2;
+}
+
+p {
+    color: $mycolor;
+}
+
+h2 {
+    background-color: $mycolor2;
+}
