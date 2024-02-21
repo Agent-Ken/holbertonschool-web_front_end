@@ -1,0 +1,16 @@
+/* Assigning font-size to others with @extend */
+.info {
+    font-size: 12px;
+}
+
+.success, .warning {
+    @extend .info;
+}
+
+.success {
+    color: #00FF00;
+}
+
+.warning {
+    color: #FF0000;
+}
