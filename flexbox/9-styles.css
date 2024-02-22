@@ -377,12 +377,15 @@
   .section-services .row {
     flex-wrap: wrap;
   }
-
   /* Section ABOUT US */
-  .section-about-us[class^=”col-”] {
+
+
+  .section-about-us [class^=”col-”] {
     align-self: center;
   }
 
+
+  
   /*** 4. CARD ***/
   
   /* Card (all styles)
