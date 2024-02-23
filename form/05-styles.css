@@ -714,6 +714,20 @@
   /* Form group
   ============================= */
 
+  .form-group {
+    padding: 1rem;
+    margin: 0;
+    background-color: var(--color-white);
+  }
+  
+  .form-group:focus-within {
+    background-color: var(--color-light-grey);
+    transition: 0.3s;
+  }
+
+  /* Form field
+  ============================= */
+
   .form-field-container {
     position: relative;
   }
@@ -735,7 +749,7 @@
     transition: 0.3s;
     overflow: hidden;
   }
-
+  
   .form-group:focus-within .form-help {
     max-height: 20rem;
     margin: 0.4rem 0 0;
