@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center; /* puts those boxes in the middle */
+}
+
+.container {
+    display: flex;
+    /* flex-direction: row; -- Didn't need this in the end */
+    align-items: baseline;
+}
+
+.box {
+    display: flex;
+    justify-content: center; /* replacement for text-align here */
+    align-items: center;
+    color: #ffffff;
+}
+
+.box1 {
+    background-color: #1fcd6c;
+    width: 80px;
+    font-size: 20px;
+    height: 60px;
+}
+
+.box2 {
+    background-color: #2d98de;
+    width: 120px;
+    font-size: 35px;
+    height: 80px;
+}
+
+.box3 {
+    background-color: #344a61;
+    width: 220px;
+    font-size: 70px;
+    height: 130px;
+}
+
+.box4 {
+    background-color: #9a56bd;
+    width: 120px;
+    font-size: 35px;
+    height: 80px;
+}
+
+.box5 {
+    background-color: #e77f02;
+    width: 80px;
+    font-size: 20px;
+    height: 60px;
+}
