@@ -10,4 +10,4 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - CSS units that are used to make elements flexible
 
 ## Wireframe of the Techium project - mobile version
-![image](https://github.com/Agent-Ken/responsive_design/assets/128805216/ab085b8b-a173-47e6-8148-ad9070456d76)
+![image](https://github.com/Agent-Ken/holbertonschool-web_front_end/assets/128805216/9739ab30-2c96-4663-bdab-20910d53e842)
