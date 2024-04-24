@@ -2,24 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Shopping Cart with Local Storage</title>
+    <title>Cookies5</title>
 </head>
 <body>
     <script>
-        // Check for Local Storage availability
         if (typeof(Storage) === "undefined") {
             alert("Sorry, your browser does not support Web storage. Try again with a better one");
         } else {
-            // Array of available items
             const availableItems = ['Shampoo', 'Soap', 'Sponge', 'Water'];
 
-            // Function to add item to cart
             function addItemToCart(item) {
                 localStorage.setItem(item, true);
                 displayCart();
             }
 
-            // Function to create store
             function createStore() {
                 const ul = document.createElement('ul');
                 availableItems.forEach(item => {
@@ -31,7 +27,6 @@
                 document.body.appendChild(ul);
             }
 
-            // Function to display cart
             function displayCart() {
                 const cartItems = Object.keys(localStorage);
                 if (cartItems.length > 0) {
@@ -41,7 +36,6 @@
                 }
             }
 
-            // Initialize store and display cart
             createStore();
             displayCart();
         }
